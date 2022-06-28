@@ -7,13 +7,13 @@ with open(os.path.join(base_dir, "README.md"), "r") as f:
 
 setuptools.setup(
     name="PyHackMD",
-    version="1.0.0",
+    version="1.0.2",
     author="GoatWang",
     author_email="jeremy4555@yahoo.com.tw",
     description="Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/GoatWang/PyHackMD",
     packages=setuptools.find_packages(),
     # package_data={'': ['', '', '']},
     classifiers=(
