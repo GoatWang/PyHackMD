@@ -18,7 +18,7 @@ from PyHackMD import API
 from pprint import pprint
 api = API('<token>')
 data = api.get_note_list()
-pprint(data)
+print(data)
 ```
 
 2. Get Note Content
@@ -27,7 +27,7 @@ from PyHackMD import API
 from pprint import pprint
 api = API('<token>')
 data = api.get_note('<note_id>')
-pprint(data)
+print(data)
 ```
 
 3. Create Note
@@ -36,7 +36,7 @@ from PyHackMD import API
 from pprint import pprint
 api = API('<token>')
 data = api.create_note(title="Test Create Note")
-pprint(data)
+print(data)
 ```
 
 4. Update Note
@@ -45,7 +45,7 @@ from PyHackMD import API
 from pprint import pprint
 api = API('<token>')
 data = api.update_note("<note_id>", content="# Test Update Note")
-pprint(data)
+print(data)
 ```
 
 5. Delete Note
@@ -54,7 +54,7 @@ from PyHackMD import API
 from pprint import pprint
 api = API('<token>')
 data = api.delete_note("<note_id>")
-pprint(data)
+print(data)
 ```
 
 6. Get Note Read History
@@ -63,7 +63,7 @@ from PyHackMD import API
 from pprint import pprint
 api = API('<token>')
 data = api.get_note_read_history()
-pprint(data)
+print(data)
 ```
 
 # Build & Upload
